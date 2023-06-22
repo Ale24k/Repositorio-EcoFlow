@@ -7,8 +7,10 @@
 #include <RF24.h>
 #include <RF24_config.h>
 
+
 //Incluyendo la librería SPI (un bus) (para la comunicación/transferencia de datos) 
 #include <SPI.h>
+
 
 //Colocando los pines CE,CSN , respectivamente
 RF24 Radio(7,8);
