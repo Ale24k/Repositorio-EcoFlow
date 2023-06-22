@@ -5,6 +5,7 @@ Bienvenidos al grupo ECOFLOW 😎
 - [¿Qué es lo que buscamos?](#Que-es-lo-que-buscamos)
 - [Misión](#Misión)
 - [Visión](#Visión)
+- [Problemática](#Problemática)
 - [Solución](#Solución)
 - [¿Quiénes somos?](#Quiénes-somos)
 
