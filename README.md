@@ -1,6 +1,6 @@
 <h1 align="center">ECOFLOW</h1>
 
-Bienvenidos 😊
+Bienvenidos al grupo ECOFLOW 😎
 
 - [¿Qué es lo que buscamos?](#Que-es-lo-que-buscamos)
 - [Misión](#Misión)
