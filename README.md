@@ -13,10 +13,7 @@
 //Colocando los pines CE,CSN , respectivamente
 RF24 Radio(7,8);
 
-//Ahora, se creará la matriz de bytes que representará la dirección con la que se
-//reconocerán entre sí los dos módulos. Esta dirección va a permitir elegir con qué
-//receptor es que nos vamos a comunicar. Aunque, en este caso, se usará la misma dirección
-//tanto para el transmisor como el receptor
+//Ahora, se creará la matriz de bytes que representará la dirección con la que se reconocerán entre sí los dos módulos. Esta dirección va a permitir elegir con //qué receptor es que nos vamos a comunicar. Aunque, en este caso, se usará la misma dirección tanto para el transmisor como el receptor
 const byte identificacion[6]="00001";
 
 void setup() {
