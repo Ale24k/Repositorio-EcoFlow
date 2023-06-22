@@ -161,8 +161,6 @@ void loop() {
     //Una vez que se transmite el dato, este será recibido y enviado al monitor serial
     Serial.print("El dato captado por el sensor es");
     Serial.println(ValorMed);
-
-
     
   }
 
