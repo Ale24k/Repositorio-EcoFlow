@@ -10,3 +10,8 @@ Es un equipo de monitoreo ambiental basado en humedales y un método de monitore
 
 ![imagen10](https://user-images.githubusercontent.com/118635410/248678342-a3efa848-d88b-4683-9fd3-d938387dfef5.png)
 
+# PATENTE 2
+# Dispositivo de operación de viaje de humedal y método para controlar el mismo
+<p>FECHA DE PUBLICACIÓN: 11.12.2017<p>  
+<p>AUTORES: QIN FEIYAN, LI WEIMIN, XU KUN<p>
+<p>NÚMERO DE PUBLICACIÓN: 107933558<p>
