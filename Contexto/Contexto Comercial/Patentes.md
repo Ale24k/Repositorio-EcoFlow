@@ -8,3 +8,4 @@ Es un equipo de monitoreo ambiental basado en humedales y un método de monitore
 <p>INVENTOR: WANG WEI </p>
 <p>NÚMERO DE PUBLICACIÓN: 217466893  </p>
 
+![imagen10](https://user-images.githubusercontent.com/118635410/248678342-a3efa848-d88b-4683-9fd3-d938387dfef5.png)
