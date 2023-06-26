@@ -1,5 +1,7 @@
 <h1 align="center">Simulación</h1>
 
+![simulacion](https://user-images.githubusercontent.com/118635410/248712892-bbe0a9c7-c950-4270-b8f4-9899a26820d1.png)
+
 ~~~
 //EMISOR
 
