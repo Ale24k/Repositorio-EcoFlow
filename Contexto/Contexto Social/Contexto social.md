@@ -22,3 +22,8 @@ A continuación se muestra una tabla de los humedales artificiales con algunas p
 
 A nivel nacional, todavía no se ha adoptado ampliamente el uso de humedales artificiales para el tratamiento de aguas residuales, excepto en las ciudades principales como Lima, Arequipa, Cusco, Cajamarca, entre otras. En particular, en las zonas costeras del Perú, que son desérticas y áridas, se presenta una gran demanda de agua. Según las estadísticas de la Organismo de Evaluación y Fiscalización Ambiental (OEFA), el siguiente diagrama muestra el volumen de aguas residuales tratadas en Lima Metropolitana, así como la tecnología que se emplea para el tratamiento. 
 
+## Historia clínica del niño de 2 a 4 años PS. villa San Cristóbal - 2020 - Puno
+
+![imagen6](https://user-images.githubusercontent.com/118635410/248668381-47482085-1254-422e-b25f-43b5fe8561f2.png)
+
+De acuerdo con la tabla, se puede observar que de todas las historias clínicas revisadas de niños de entre 2 y 4 años que viven en las cercanías de las aguas residuales de Totora, el 45.2% de los niños presenta problemas gastrointestinales. De ese porcentaje, el 41.5% sufre de diarrea frecuente, siendo el 9.8% de dos años, el 15.9% de tres años y el 15.9% de cuatro años. Además, el 3.7% de los niños presentó disentería, siendo el 2.4% de ellos de tres años de edad (Jesús Tumi-Quispe, 2021).
