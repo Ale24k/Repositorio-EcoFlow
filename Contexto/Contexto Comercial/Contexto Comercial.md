@@ -1,9 +1,10 @@
 <h1 align="center">Sensor analógico TDS para Arduino</h1>
 Este dispositivo sirve para medir la cantidad de solidos disueltos totales presentes en una muestra de agua en un humedal artificial.
 La medición de estos solidos es muy importante, debido que nos proporciona una amplia gama de sustancias, como sales, minerales y otros componentes disueltos en el agua. En los humedales artificiales medir estos solidos, ayuda de gran manera a identificar cambios en la calidad del agua, debido a que este sensor analógico nos proporciona una información precia y en tiempo real de los solidos disueltos totales en una muestra de agua.
-
-![imagen7](https://user-images.githubusercontent.com/118635410/248671347-cb1a951b-3f60-4f82-8d37-3f2b9e7f1217.png)
-
+<p align="center">
+  <br>
+  <img src="https://user-images.githubusercontent.com/118635410/248671347-cb1a951b-3f60-4f82-8d37-3f2b9e7f1217.png" alt="imagen7">
+</p>
 # Estación meteorológica inalámbrica
 Este mecanismo  trabajo con distintos sensores que midan diferentes variables ambientales como:
 La temperatura del aire, el cual se debe medir la temperatura del aire en diferentes altitudes para poder conocer la estabilidad de la atmosfera y como afecta el intercambio de calor entre el aire y el humedal.
