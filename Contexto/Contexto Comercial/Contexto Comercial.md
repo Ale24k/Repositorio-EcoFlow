@@ -13,6 +13,7 @@ Por último este dispositivo trabaja con una variable que buscamos medir, el cua
 
 ![imagen8](https://user-images.githubusercontent.com/118635410/248671675-1b0e1e73-fd43-47e6-a422-4f5e8fc7fe05.png)
 
+<h1 align="center">Medidor de oxígeno disuelto</h1>
 # Medidor de oxígeno disuelto
 Este instrumento tiene una alta precisión para medir el oxigeno disuelto y la temperatura.
 Este modelo posee una sonda de oxigeno disuelto, el cual posee una capa fina con un sensor polarográfico y un termistor para medición de temperatura. Al presentar una membrana permeable separa la solución medida del electrodo de detección permitiendo que el oxigeno pase a través de la membrana para reaccionar, y la concentración se puede medir.
