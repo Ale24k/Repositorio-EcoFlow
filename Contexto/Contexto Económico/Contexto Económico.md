@@ -11,3 +11,7 @@ Es importante mencionar que se realizó un estudio por las siguientes organizaci
 ![imagen14]()
 
 <h2 align="center">CONTEXTO NACIONAL</h2>
+
+"La Ley de Recursos Hídricos (LRH) regula el régimen económico del uso del agua y establece que los titulares de los derechos de uso están obligados a contribuir al uso sostenible y eficiente del recurso hídrico mediante el pago de las retribuciones económicas y las tarifas que les correspondan. Las condiciones económico-financieras bajo las que se produce la oferta de los servicios de agua comprenden dos grandes bloques, tal como prescriben los artículos 90 al 96 del título VI, “Régimen económico por el uso del agua” de la LRH:
+· Retribución económica por el uso del agua y retribución económica por el vertimiento del agua residual
+· Tarifa por el servicio de distribución del agua en los usos sectoriales; tarifa por la utilización de las infraestructura hidráulica mayor y menor, y tarifa por monitoreo y gestión del uso de aguas subterráneas" (Fuente: Superintendencia Nacional de Servicios de Saneamiento (Sunass))
