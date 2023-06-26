@@ -18,6 +18,7 @@ Este instrumento tiene una alta precisión para medir el oxigeno disuelto y la t
 Este modelo posee una sonda de oxigeno disuelto, el cual posee una capa fina con un sensor polarográfico y un termistor para medición de temperatura. Al presentar una membrana permeable separa la solución medida del electrodo de detección permitiendo que el oxigeno pase a través de la membrana para reaccionar, y la concentración se puede medir.
 El oxigeno disuelto se refiere a la concentración de oxigeno molecular disuelto en agua que se produce a través de la fotosíntesis de las plantas acuáticas, permitiendo así la degradación de materia orgánica presente en el agua.
 
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/118635410/248672110-aa555056-cfb5-4d9d-9267-eba78bd00967.png" alt="imagen9">
 </p>
