@@ -1,5 +1,6 @@
 <h1 align="center">Simulación</h1>
 
+~~~
 //EMISOR
 
 //Incluyendo la librería RF24
@@ -168,3 +169,4 @@ void loop() {
   }
 
 }
+~~~
