@@ -4,3 +4,4 @@ En este articulo se habla sobre un dispositivo de interfaz de sensor reconfigura
 
 ![imagen 2](https://user-images.githubusercontent.com/118635410/248642108-6e23a61d-aedd-464e-9574-5747ad5dd14c.png)
 
+[Sistema de monitoreo de la calidad del agua de piscifactorías basado en IoT]()
