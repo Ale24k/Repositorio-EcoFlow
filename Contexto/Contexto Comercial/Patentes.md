@@ -29,3 +29,5 @@ Las ruedas motrices están conectadas al cuerpo, el cual está provisto de dispo
 <p>NÚMERO DE PUBLICACIÓN: 113686382<p>
 
 Este equipo es capaz de ajustarse según las necesidades de monitoreo, es fácil de mantener y monitorea diversos entornos de manera efectiva, lo que resuelve los problemas de los equipos de monitoreo ambiental existentes que no pueden ajustarse a las necesidades de monitoreo, son complicados de reparar o reemplazar en caso de daño, y no son convenientes para monitorear en diversos entornos.
+
+![imagen12](https://user-images.githubusercontent.com/118635410/248691975-bc20286f-8235-4800-b0e0-9dde5f2ada49.png)
