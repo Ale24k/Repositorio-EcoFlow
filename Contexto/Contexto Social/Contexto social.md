@@ -15,4 +15,4 @@ En México según el Conagua existen 2287 plantas de tratamiento de aguas residu
 
 A continuación se muestra una tabla de los humedales artificiales con algunas plantas ornamentales, el espacio que ocupan éstos y la eficiencia de remoción de algunos elementos químicos en diferentes poblaciones de México:
 
-![imagen5]()
+![imagen5](https://user-images.githubusercontent.com/118635410/248666336-35d361dd-3c1c-4abe-82b8-84e7c10478dd.png)
