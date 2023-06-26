@@ -5,3 +5,4 @@ La presión sobre los recursos hídricos a nivel mundial es alta, con el uso del
 ## Medio Oriente
 Se han presentado algunos proyectos exitosos que utilizan el sistema de humedales VF de dos etapas, también conocido como humedal francés, el cual es un diseño ampliamente utilizado en todo el mundo. Aunque la mayoría de estas instalaciones están ubicadas en climas templados y, en algunos casos, tropicales (cálidos y húmedos), existen pocas instalaciones que se encuentran en climas áridos y cálidos, como en el Medio Oriente. El sistema francés consiste en dos etapas de humedales VF llenos de grava con una profundidad de hasta 1 metro. 
 
+![imagen4](https://user-images.githubusercontent.com/118635410/248664811-92bf9017-6c2c-45a9-bf07-e72605fc3270.png)
