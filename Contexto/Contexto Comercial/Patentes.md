@@ -21,3 +21,11 @@ Esta invención se aplica al campo técnico de maquinaria agrícola y proporcion
 ![imagen11](https://user-images.githubusercontent.com/118635410/248685627-f275deec-0f74-4aa3-a033-d4b29897369d.png)
 
 Las ruedas motrices están conectadas al cuerpo, el cual está provisto de dispositivos de monitoreo de la profundidad de la capa de agua y lodo en los campos de arrozales. El cuerpo o al menos una de las ruedas motrices está provista de sensores de velocidad de las ruedas, utilizados para monitorear las velocidades de las ruedas motrices. Además, el cuerpo está equipado con un dispositivo de ajuste de velocidad y un sensor de velocidad de vehículo real para monitorear la velocidad de desplazamiento del dispositivo de operación de desplazamiento en humedales.
+
+# PATENTE 3
+# Equipo de monitoreo ambiental basado en humedales y método de monitoreo
+<p>FECHA DE PUBLICACIÓN: 23.11.2021<p>
+<p>INVENTORES: ZHANG YOU, TIAN WEI, LI CHUANZHEN, YANG HUIPING, WEI LUYUN, ZHAO TINGTING.<p>
+<p>NÚMERO DE PUBLICACIÓN: 113686382<p>
+
+Este equipo es capaz de ajustarse según las necesidades de monitoreo, es fácil de mantener y monitorea diversos entornos de manera efectiva, lo que resuelve los problemas de los equipos de monitoreo ambiental existentes que no pueden ajustarse a las necesidades de monitoreo, son complicados de reparar o reemplazar en caso de daño, y no son convenientes para monitorear en diversos entornos.
