@@ -1,1 +1,5 @@
+# Representación del rendimiento de los humedales de tratamiento de flujo horizontal
+
 El artículo se centra en el diseño de humedales de tratamiento de flujo horizontal y destaca la importancia de considerar tanto factores hidráulicos como cinéticos en este proceso. A diferencia de otros estudios que utilizan valores fijos para el tiempo de retención hidráulico (TIS) y el coeficiente de tasa de remoción de primer orden (k), este artículo propone una nueva ecuación que relaciona estos factores, basada en un estudio de seguimiento en 41 humedales.
+
+[Representación del rendimiento de los humedales de tratamiento de flujo horizontal](ruta_del_archivo.pdf)
