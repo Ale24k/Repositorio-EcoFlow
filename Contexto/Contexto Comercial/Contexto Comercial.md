@@ -1,0 +1,3 @@
+# Sensor analógico TDS para Arduino
+Este dispositivo sirve para medir la cantidad de solidos disueltos totales presentes en una muestra de agua en un humedal artificial.
+La medición de estos solidos es muy importante, debido que nos proporciona una amplia gama de sustancias, como sales, minerales y otros componentes disueltos en el agua. En los humedales artificiales medir estos solidos, ayuda de gran manera a identificar cambios en la calidad del agua, debido a que este sensor analógico nos proporciona una información precia y en tiempo real de los solidos disueltos totales en una muestra de agua.
