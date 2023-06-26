@@ -5,7 +5,7 @@ En la actualidad, sin embargo, nos encontramos con problemas en el agua por proc
 
 ![imagen13]()
 
-# Costo de la ampliación de los servicios básicos de agua y saneamiento
+## Costo de la ampliación de los servicios básicos de agua y saneamiento
 Es importante mencionar que se realizó un estudio por las siguientes organizaciones sobre el costo del saneamiento y la provisión de servicios de agua, las cuales son el Grupo Banco Mundial, la UNICEF y la OMS: " Un estudio realizado por el Grupo Banco Mundial, el Fondo de las Naciones Unidas para la Infancia (UNICEF) y la Organización Mundial de la Salud (OMS) calcula que la ampliación de los servicios básicos de agua y saneamiento a las poblaciones desatendidas costaría 28.400 millones de dólares al año entre 2015 y 2030, o el 0,10% de la producción total de los 140 países incluidos en el estudio". (ONU, Objetivo 6 - Agua limpia y saneamiento).
 
 ![imagen14]()
