@@ -10,6 +10,6 @@ Es un equipo de monitoreo ambiental basado en humedales y un método de monitore
 
 ![imagen10](https://user-images.githubusercontent.com/118635410/248678342-a3efa848-d88b-4683-9fd3-d938387dfef5.png)
 
-<div style="background-color: #f1f1f1; padding: 10px;">
-Contenido con fondo
+<div style="background-color: white; padding: 10px;">
+Contenido con fondo blanco
 </div>
