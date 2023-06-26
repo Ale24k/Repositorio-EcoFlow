@@ -18,6 +18,6 @@ Es un equipo de monitoreo ambiental basado en humedales y un método de monitore
 
 Esta invención se aplica al campo técnico de maquinaria agrícola y proporciona un dispositivo de operación de desplazamiento en humedales y un método para controlarlo. El dispositivo de operación de desplazamiento en humedales incluye un cuerpo, ruedas motrices y dispositivos de control de la tasa de deslizamiento de las ruedas. 
 
-![imagen11](https://user-images.githubusercontent.com/118635410/248682942-1ff028f8-a173-4f51-987b-5b7491e47825.png)
+![imagen11](https://user-images.githubusercontent.com/118635410/248685627-f275deec-0f74-4aa3-a033-d4b29897369d.png)
 
 Las ruedas motrices están conectadas al cuerpo, el cual está provisto de dispositivos de monitoreo de la profundidad de la capa de agua y lodo en los campos de arrozales. El cuerpo o al menos una de las ruedas motrices está provista de sensores de velocidad de las ruedas, utilizados para monitorear las velocidades de las ruedas motrices. Además, el cuerpo está equipado con un dispositivo de ajuste de velocidad y un sensor de velocidad de vehículo real para monitorear la velocidad de desplazamiento del dispositivo de operación de desplazamiento en humedales.
