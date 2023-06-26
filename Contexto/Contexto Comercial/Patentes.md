@@ -17,6 +17,7 @@ Es un equipo de monitoreo ambiental basado en humedales y un método de monitore
 <p>NÚMERO DE PUBLICACIÓN: 107933558<p>
 
 Esta invención se aplica al campo técnico de maquinaria agrícola y proporciona un dispositivo de operación de desplazamiento en humedales y un método para controlarlo. El dispositivo de operación de desplazamiento en humedales incluye un cuerpo, ruedas motrices y dispositivos de control de la tasa de deslizamiento de las ruedas. 
+
 <p align="center">
   <br>
   <img src="https://user-images.githubusercontent.com/118635410/248685627-f275deec-0f74-4aa3-a033-d4b29897369d.png" alt="imagen11">
