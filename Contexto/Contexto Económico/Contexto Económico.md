@@ -5,7 +5,7 @@ En la actualidad, sin embargo, nos encontramos con problemas en el agua por proc
 
 <p align="center">
   <br>
-  <img src="https://user-images.githubusercontent.com/118635410/248703655-940f6772-be2f-46f0-b9cf-1ce05fc42e8c.png" alt="imagen13">
+  <img src="https://user-images.githubusercontent.com/118635410/248704760-4bb06716-1a75-489b-bbf4-1070ff166a30.png" alt="imagen13">
 </p>
 
 ## Costo de la ampliación de los servicios básicos de agua y saneamiento
