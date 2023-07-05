@@ -148,10 +148,5 @@ void loop() {
       BluetoothArduino.write("");
       delay(500);
     }
-  }
-  
-
-  //Enviar por bluetooth -- No imprime directamente los números
-  //BluetoothArduino.write(ValorPH1);
-  
+  } 
 }
