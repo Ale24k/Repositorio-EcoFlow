@@ -1,1 +1,180 @@
+CÓDIGO DEL ARDUINO EMISOR
 
+//EMISOR
+//Incluyendo la librería RF24
+#include <nRF24L01.h>
+#include <printf.h>
+#include <RF24.h>
+#include <RF24_config.h>
+
+//Incluyendo la librería SPI (un bus) (para la comunicación/transferencia de datos) 
+#include <SPI.h>
+
+//Colocando los pines CE,CSN , respectivamente
+RF24 Radio(7,8);
+
+//Ahora, se creará la matriz de bytes que representará la dirección con la que se
+//reconocerán entre sí los dos módulos. Esta dirección va a permitir elegir con qué
+//receptor es que nos vamos a comunicar. Aunque, en este caso, se usará la misma dirección
+//tanto para el transmisor como el receptor
+const byte identificacion[6]="00001";
+
+
+//Se importa la librería para los pines  del Bluetooth
+#include <SoftwareSerial.h>
+//Pines TX, RX
+SoftwareSerial BluetoothArduino(2,3);
+
+
+void setup() {
+
+  //Se inicializa el puerto serial para verificar que esté enviando el mensaje correctamente
+  Serial.begin(9600);
+  //Ahora, se iniciará el objeto creado inicialmente
+  Radio.begin();
+
+  //Una vez realizado lo anterior, se utilizará la función Radio.openWritingPipe(), donde
+  //se pasará por parámetro la dirección del receptor al que se enviarán los datos (que
+  //estará representada por la cadena de caracteres que hemos configurado)
+  Radio.openWritingPipe(identificacion);
+
+  //A continuación, se configurará el nivel del amplificador de potencia, mediante la
+  //función Radio.setPALevel(). En este caso, se usará un nivel de prueba mínimo, ya que
+  //ambos módulos (solo para la prueba) estarán cerca el uno del otro. En cambio, cuando
+  //ya se implemente (dependiedo de la distancia en que estarán estos) se cambiará el
+  //amplicador de potencia
+  Radio.setPALevel(RF24_PA_MIN);
+
+  //Ahora, establecemos al módulo como transmisor mediante la siguiente función
+  Radio.stopListening();
+
+  //Además, iniciamos la conexión Bluetooth
+  BluetoothArduino.begin(9600);
+
+}
+
+void loop() {
+
+  //Se coloca el código de turbidez de agua (ya que este es el emisor)
+  //SENSOR DE TURBBIDEZ DE AGUA
+  //Leyendo los valores del sensor
+  float ValorSensor=analogRead(A0);
+ 
+  
+  //Obteniendo el voltaje (Pues los valores del sensor irán de 0-1023)
+  float Voltaje=(ValorSensor)*(5/1024.0);
+  
+  //Mediante la fórmula que relaciona el voltaje con la turbidez, se calcula el valor
+  float Turb=194.23*Voltaje+44.038;
+
+  if (Turb>=505 & Turb<=510){ //Valores antiguos: Turb>=755 & Turb<=760
+    Serial.println("Turbidez: ");
+    Serial.println("Agua de grifo");
+    
+    //Enviamos, también, por bluetooth
+    BluetoothArduino.write("Turbidez: ");
+    BluetoothArduino.write("Agua de grifo");
+    
+    //Enviamos, también, al NRF
+    const char Mensaje[]="Agua de grifo";
+    Radio.write(&Mensaje,sizeof(Mensaje));
+
+    delay(500);
+    
+  }
+  
+  else if (Turb>=480 & Turb<=490){  //Valores antiguos: Turb>=720 & Turb<=725
+    Serial.println("Agua poco turbia");
+    
+    //Enviamos, también, por bluetooth
+    BluetoothArduino.write("Turbidez: ");
+    BluetoothArduino.write("Agua poco turbia");
+
+    //Enviamos, también, al NRF
+    const char Mensaje[]="Agua poco turbia";
+    Radio.write(&Mensaje,sizeof(Mensaje));
+
+    delay(500);
+
+  }
+  
+  else if (Turb>=490 & Turb<=500){ //Valores antiguos: Turb>=370 & Turb<=376
+    Serial.println("Agua turbia");
+    
+    //Enviamos, también, por bluetooth
+    BluetoothArduino.write("Turbidez: ");
+    BluetoothArduino.write("Agua turbia");
+
+    //Enviamos, también, al NRF
+    const char Mensaje[]="Agua turbia";
+    Radio.write(&Mensaje,sizeof(Mensaje));
+
+    delay(500);
+    
+  }
+
+
+  //SENSOR DE PH
+  //Valores de pH
+  float pH=analogRead(A2);
+  
+
+  //Colocando los valores del pH con la fórmula que obtuvimos realizando las pruebas
+  //Fórmula
+  float ValorPH1=-0.03*pH+31.169;
+ 
+  if (ValorPH1<=14){
+    //Se imprimen los valores en el puerto serial del Arduino
+    Serial.print("pH:");
+    Serial.println(ValorPH1);
+
+   //Enviamos también al módulo NRF el valor del pH
+   Radio.write(&ValorPH1,sizeof(ValorPH1));
+
+    //De la misma manera, 
+    if (ValorPH1>=6.5 and ValorPH1<=8.5){
+      BluetoothArduino.write("Valor de pH en un rango de 6.5 - 8.5 ");
+      BluetoothArduino.write("Apto");
+      BluetoothArduino.write("");
+      delay(500);
+    }
+    else{
+      BluetoothArduino.write("Valor de pH fuera del rango de 6.5 - 8.5");
+      BluetoothArduino.write("No apto ");
+      BluetoothArduino.write("");
+      delay(500);
+    }
+  }
+  
+
+
+  //Enviar por bluetooth -- No imprime
+  //BluetoothArduino.write(ValorPH1);
+  
+
+  //Fórmula 2
+  //float ValorPH2=-0.0316*pH+13.887;
+  //Serial.print("Fórmula2:");
+  //Serial.println(ValorPH2);
+
+  //Fórmula 3
+  //float ValorPH3=-0.0291*pH+28.757;
+  //Serial.print("Fórmula3:");
+  //Serial.println(ValorPH3);
+
+  //Se enviarán los 3 valores al arduino receptor
+  //pH1
+  //Radio.write(&ValorPH1,sizeof(ValorPH1));
+  //delay(500);
+
+  //pH2
+  //Radio.write(&ValorPH2,sizeof(ValorPH2));
+  //delay(1000);
+  
+  //pH3
+  //Radio.write(&ValorPH3,sizeof(ValorPH3));
+  //delay(1000);
+
+  //Establecemos el tiempo de espera entre envío
+  //delay(1000);
+}
