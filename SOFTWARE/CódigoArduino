@@ -132,6 +132,9 @@ void loop() {
    //Enviando los valores de pH al bluetooth
     BluetoothArduino.println(ValorPH1);
 
+   //Si no funciona lo de arriba, puede funcionar esto
+   //BluetoothArduino.write("ValorPH1");
+
    //Enviamos también al módulo NRF el valor del pH
    Radio.write(&ValorPH1,sizeof(ValorPH1));
 
