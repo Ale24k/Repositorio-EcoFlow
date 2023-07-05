@@ -130,6 +130,7 @@ void loop() {
     Serial.println(ValorPH1);
 
    //Enviando los valores de pH al bluetooth
+    BluetoothArduino.println("Valor de pH: ");
     BluetoothArduino.println(ValorPH1);
 
    //Si no funciona lo de arriba, puede funcionar esto
@@ -151,5 +152,7 @@ void loop() {
       BluetoothArduino.write("");
       delay(500);
     }
+    //Tiempo de espera
+    delay(500);
   } 
 }
