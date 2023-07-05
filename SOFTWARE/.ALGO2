@@ -147,34 +147,7 @@ void loop() {
   }
   
 
-
   //Enviar por bluetooth -- No imprime
   //BluetoothArduino.write(ValorPH1);
   
-
-  //Fórmula 2
-  //float ValorPH2=-0.0316*pH+13.887;
-  //Serial.print("Fórmula2:");
-  //Serial.println(ValorPH2);
-
-  //Fórmula 3
-  //float ValorPH3=-0.0291*pH+28.757;
-  //Serial.print("Fórmula3:");
-  //Serial.println(ValorPH3);
-
-  //Se enviarán los 3 valores al arduino receptor
-  //pH1
-  //Radio.write(&ValorPH1,sizeof(ValorPH1));
-  //delay(500);
-
-  //pH2
-  //Radio.write(&ValorPH2,sizeof(ValorPH2));
-  //delay(1000);
-  
-  //pH3
-  //Radio.write(&ValorPH3,sizeof(ValorPH3));
-  //delay(1000);
-
-  //Establecemos el tiempo de espera entre envío
-  //delay(1000);
 }
