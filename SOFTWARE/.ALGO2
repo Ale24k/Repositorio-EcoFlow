@@ -124,14 +124,18 @@ void loop() {
   float ValorPH1=-0.03*pH+31.169;
  
   if (ValorPH1<=14){
+
     //Se imprimen los valores en el puerto serial del Arduino
     Serial.print("pH:");
     Serial.println(ValorPH1);
 
+   //Enviando los valores de pH al bluetooth
+    BluetoothArduino.println(ValorPH1);
+
    //Enviamos también al módulo NRF el valor del pH
    Radio.write(&ValorPH1,sizeof(ValorPH1));
 
-    //De la misma manera, 
+    //En caso no se puedan imprimir los datos numéricos
     if (ValorPH1>=6.5 and ValorPH1<=8.5){
       BluetoothArduino.write("Valor de pH en un rango de 6.5 - 8.5 ");
       BluetoothArduino.write("Apto");
